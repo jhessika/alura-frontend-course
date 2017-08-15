@@ -1,0 +1,69 @@
+body{
+	background-color: #f5f0dc;
+	font-family: Helvetica, Arial, sans-serif; 
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2{
+	background-color: #b3a742;
+	background-color: -moz-linear-gradient (top, #9c8f67, #c7be9b 30%);
+		background-color: -webkit-linear-gradient (top, #9c8f67, #c7be9b 30%);
+		border-radius: 15px;
+		border: 1px solid black;
+	color:#ffffff;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+#tb-nutrientes{
+
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black;
+}
+
+
+#tb-nutrientes th{
+	background-color: #ffffff;
+ }
+
+nav ul li{
+	display: inline;
+	margin-right: 50px;
+}
+
+
+
+#topo{
+	text-align: center;
+}
+
+figure{
+	background-color: white;
+	width: 350px;
+	padding: 15px;
+	border: 1px solid black;
+	box-shadow: 5px	 5px 3px rgba(0,0,0,0.7);
+	font-family: cursive;
+	text-align: center; 
+	-webkit-transform:rotate(-5deg);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
