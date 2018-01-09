@@ -1,4 +1,22 @@
 
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    text-shadow: 5px 5px #000;
+}
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    perspective: 6px;
+    perspective-origin: 50% 160px;
+}
+.palavras-home, .titulo-principal {
+    transform-style: preserve-3d;
+}  
+
 .inicio-post {
     background-color: #FFF;
     position: absolute;
@@ -66,9 +84,9 @@
 }
 .secao-inicio h2 {
     font-size: 3em;
-    text-shadow: 2px 2px #000;
     text-transform: uppercase;
-    margin-bottom: .5em;
+    margin-bottom: : .5em;
+    text-shadow: 5px 5px #000;
 }
 .trabalhos {
     background-color: #3C1D3D;
@@ -121,11 +139,8 @@ main {
     padding-bottom: 0;
     float: none;
 }
-.palavra-home {
-    position: absolute;
-    font-family: "Shadows Into Light", cursive;
-    font-weight: bold;
-    color: #D5447E;
+.palavras-home li {
+    font-size: : 400%;
 
 }
 
@@ -138,58 +153,82 @@ main {
 }
 
 .eficiencia {
-    top: 20%;
-    left: 75%;
+    top: 50%;
+    left: 60%;
+     -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+           
 }
 
 .boas-praticas {
     top: 70%;
     left: 20%;
+    -webkit-transform: translate(-50%, -50%) rotate(10deg) translateZ(1px) scale(.25);
+            transform: translate(-50%, -50%) rotate(10deg)translateZ(1px) scale(.25);
 }
 
 .codigo-limpo {
     top: 45%;
     left: 10%;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 .css3 {
     top: 50%;
-    left: 30%;
+    left: 30 %;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 
 .html5 {
     top: 40%;
     left: 80%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 
 .javascript {
     top: 10%;
     left: 60%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
 .acessibilidade {
     top: 30%;
     left: 25%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
 .responsivo {
     top: 15%;
     left: 15%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 
 .otimizacoes {
-    top: 60%;
+    top: 65%;
     left: 70%;
+    -webkit-transform: translate(-50%, -50%) rotate(10deg) translateZ(1px) scale(.25);
+            transform: translate(-50%, -50%) rotate(10deg)translateZ(1px) scale(.25);
 }
+    
 
 .agilidade {
     top: 10%;
     left: 30%;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 
 .design {
     top: 35%;
-    left: 65%;
+    left: 70%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 header {
     position: relative;
@@ -199,6 +238,63 @@ header {
 }
 .foto-home {
     height: 200px;
-    border-radius: 0 50% ;
+    border-radius: 50%;
+    box-shadow: 0 0 1em #000;
 }
+.saudacao em {
+    color: #851944;
+    font-size: 4em;
+    transform: rotate(-5deg) skew(-10deg);
+    display: inline-block;
+}
+.banner-twitter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(6.5754em, -2.4749em) rotate(45deg);
+    transform-origin: 0 0;
+
+    width: 14em;
+    line-height: 1;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2em;
+    font-family: "Open Sans Condensed", sans-serif;
+  
+}
+
+.palavras-home {
+    perspective: 6px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+
+.botao-index {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+}   
+
+
+
+
+
+
+
+
 

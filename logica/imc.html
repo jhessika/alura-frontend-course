@@ -1,0 +1,143 @@
+
+<meta charset="UTF-8">
+
+
+<!--<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso){
+
+    	var imc = peso / (altura * altura);
+    	mostra("O imc calulado é " + imc);
+
+    }
+
+
+    var pesoJessica = 58;
+    var alturaJessica = 1.76;
+
+    calculaImc(pesoJessica, alturaJessica);
+
+
+
+    var pesoAmigo = 80;
+    var alturaAmigo = 1.90;
+
+    calculaImc(pesoAmigo, alturaAmigo);
+
+ //primeira forma de fazer. Simples mas não é a melhor//
+
+</script> -->
+
+
+<!--<script>
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+
+        return peso/ (altura * altura);
+    }
+
+    var nomeIformado = prompt("Informe seu nome ");
+    var alturaInformada = prompt("Informe sua altura");
+    var pesoInformado = prompt("informe seu peso");
+
+    var imc = calculaImc(alturaInformada, pesoInformado);
+
+    document.write("O IMC calculado é " + imc);
+
+   // Segunda forma de fazer e a mais indicada. Pois não é necessario ficar mudando os nomes nas variaveis.//
+   
+</script>-->
+
+
+
+<script>
+
+	function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+
+        return peso/ (altura * altura);
+    }
+
+    var nome = prompt("Informe seu nome ");
+    var alturaInformada = prompt("Informe sua altura");
+    var pesoInformado = prompt("informe seu peso");
+
+    var imc = calculaImc(alturaInformada, pesoInformado);
+
+    document.write(nome + " O IMC é " + imc);
+
+    if(imc <  18.5) {
+    	mostra(" Você está abaixo do recomendado. ");
+    }
+
+    if(imc > 35) {
+
+    	mostra("Você está acima do recomendado ");
+    }
+
+    if (imc >= 18.5 && imc <= 35) {
+
+
+    		mostra(" Seu imc está excelente! ");
+
+    	}
+
+  	
+
+
+// encrementando //
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
