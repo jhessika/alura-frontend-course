@@ -3,7 +3,11 @@ var titulo = document.querySelector("#titulo");
 titulo.textContent = "Aparecida Nutrição";
 
 
-var paciente = document.querySelector("#primeiro-paciente");
+var pacientes = document.querySelectorAll(".paciente");
+
+for(var i = 0; i < pacientes.length; i++){
+
+var paciente = pacientes[i];
 
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
@@ -33,8 +37,14 @@ if(altura < 0 || altura >= 3.00){
 
 if(pesoValido && alturaValida){
 	var imc = peso / (altura * altura);
-	tdImc.textContent = imc;
+	tdImc.textContent = imc.toFixed(2);
 }
+
+
+	
+}
+
+
 
 
 
